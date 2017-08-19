@@ -1,0 +1,13 @@
+Spam email detection using an SVM (support vector machine).
+Using emails from the SpamAssassin Public Corpus (http://spamassassin.apache.org/old/publiccorpus/)
+and for the SVM the library LIBSVM is used (http://www.csie.ntu.edu.tw/~cjlin/libsvm/).
+
+The folder "easy_ham" contains 2551 "easily" classifiable non-spam messages, the folder
+"hard_ham" contains 250 "harder" non-spam messages and the folder "spam" contains
+501 spam messages. All these are taken from aforementioned corpus. The vocabulary list
+src/vocab.txt contains the most common words found in the emails.
+
+Run using Matlab or GNU Octave.
+
+preprocessing.m - takes mails from corpus and turns them into feature vectors
+main.m - takes the feature vectors and uses LIBSVM to make a spam classifier

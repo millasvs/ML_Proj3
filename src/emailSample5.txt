@@ -1,0 +1,99 @@
+Top new questions this week:
+
+Printing null pointers with %p is undefined behavior?
+
+Is it undefined behavior to print null pointers with the %p conversion specifier? #include <stdio.h> int main(void) { void *p = NULL; printf("%p", p); return 0; } The question ...
+
+c language-lawyer c99 undefined-behavior c11	 	
+	asked by Dror K. 50 votes
+	answered by Oliver Charlesworth 54 votes
+Why is GCC warning me about a fallthrough even when I use [[fallthrough]]?
+
+In the following piece of code, I use the standard [[fallthrough]] attribute from C++1z to document that a fallthrough is desired: #include <iostream> int main() { switch (0) { ...
+
+c++ c++1z fall-through	 	
+	asked by s3rvac 41 votes
+	answered by s3rvac 55 votes
+Reducing code duplication while defining a commutative operation
+
+I have a a set of overloads of a commutative binary function named overlap, which accepts two distinct types: class A a; class B b; bool overlap(A, B); bool overlap(B, A); My function overlap ...
+
+c++ templates metaprogramming	 	
+	asked by Max Bozzi 37 votes
+	answered by Quentin 50 votes
+Stack Overflow Jobs puts developers first.
+No recruiter spam or fake listings	
+Browse Jobs
+Why does Python have a limit on the number of static blocks that can be nested?
+
+The number of statically nested blocks in Python is limited to 20. That is, nesting 19 for loops will be fine (although excessively time consuming; O(n^19) is insane), but nesting 20 will fail with: ...
+
+python nested-loops	 	
+	asked by Right leg 35 votes
+	answered by Christian Dean 40 votes
+Why are non-placement `new` and `delete` built into the language and not just regular functions?
+
+Why were the non-placement new expression and the delete expression implemented as language built-in instead of regular functions? If we have... a way of requesting/giving back memory to the OS a ...
+
+c++ new-operator delete-operator	 	
+	asked by Vittorio Romeo 32 votes
+	answered by Curious 20 votes
+Best way of chaining reduce with Java 8
+
+I have the following code that I'm trying to improve: BigDecimal total = entity.getAssociate().stream().map(Associates::getPropertyA) .reduce(BigDecimal.ZERO, BigDecimal::add); total = ...
+
+java java-8	 	
+	asked by Henkes 23 votes
+	answered by Eran 38 votes
+Inserting addresses into sets, the size of the sets is smaller than expected
+
+I am getting a size of 1. Shouldn't it be 4? I am inserting the addresses of integers into the sets. void func(set<int*>& s1, set<int*>& s2, int a) { s1.insert(&a); ...
+
+c++ set	 	
+	asked by instance 23 votes
+	answered by Holt 36 votes
+Greatest hits from previous weeks:
+
+What does "Could not find or load main class" mean?
+
+A common problem that new Java developers experience is that their programs fail to run with the error message: Could not find or load main class ... What does this mean, what causes it, and how ...
+
+java class main	 	
+	asked by Stephen C 566 votes
+	answered by Stephen C 567 votes
+What is the difference between an interface and abstract class?
+
+What exactly is the difference between an interface and abstract class?
+
+oop interface abstract-class	 	
+	asked by Sarfraz 1160 votes
+	answered by e-satis 1604 votes
+Can you answer these?
+
+Algorithm to find the largest inscribed chord of a closed polyline
+
+I'm looking for an algorithm to find the longest chord ("diameter") of a closed polyline. Unfortunately that polyline doesn't have to be convex, but the chord should lie entirely within the curve. ...
+
+algorithm geometry computational-geometry mathematical-optimization	 	
+	asked by static_rtti 9 votes
+difference in quotes between korn and bash shell
+
+When I execute following command, on bash shell I get error but on Korn shell it runs perfectly fine. The only difference is missing single quote at the end of awk, after }. Could you help me ...
+
+bash shell awk ksh	 	
+	asked by user28458 5 votes
+How to determine the uncertainty of fit parameters?
+
+I have the following data for x and y: x y 1.71 0.0 1.76 5.0 1.81 10.0 1.86 15.0 1.93 20.0 2.01 25.0 2.09 30.0 2.20 35.0 2.32 40.0 2.47 45.0 2.65 50.0 2.87 55.0 ...
+
+python numpy scipy curve-fitting uncertainty	 	
+	asked by Tom Kurushingal 4 votes
+Find remote positions at Stack Overflow Jobs
+View Remote Jobs
+Subscribe to more Stack Exchange newsletters
+
+Unsubscribe from this newsletter or change your email preferences by visiting your subscriptions page on stackexchange.com. 
+
+Questions? Comments? Let us know on our feedback site. If you no longer want to receive mail from Stack Exchange, unsubscribe from all stackexchange.com emails. 
+
+Stack Exchange, Inc. 110 William St, 28th Floor, NY NY 10038 <3
